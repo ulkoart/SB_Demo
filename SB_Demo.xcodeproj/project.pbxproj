@@ -12,6 +12,7 @@
 		CE74BFDD2361887A00F75A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74BFDB2361887A00F75A61 /* Main.storyboard */; };
 		CE74BFDF2361887C00F75A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE74BFDE2361887C00F75A61 /* Assets.xcassets */; };
 		CE74BFE22361887C00F75A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74BFE02361887C00F75A61 /* LaunchScreen.storyboard */; };
+		CEAC73042361937100D2D108 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC73032361937100D2D108 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE74BFDE2361887C00F75A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE74BFE12361887C00F75A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE74BFE32361887C00F75A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAC73032361937100D2D108 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CE74BFDE2361887C00F75A61 /* Assets.xcassets */,
 				CE74BFE02361887C00F75A61 /* LaunchScreen.storyboard */,
 				CE74BFE32361887C00F75A61 /* Info.plist */,
+				CEAC73032361937100D2D108 /* SecondViewController.swift */,
 			);
 			path = SB_Demo;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAC73042361937100D2D108 /* SecondViewController.swift in Sources */,
 				CE74BFDA2361887A00F75A61 /* ViewController.swift in Sources */,
 				CE74BFD82361887A00F75A61 /* AppDelegate.swift in Sources */,
 			);
