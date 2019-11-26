@@ -34,9 +34,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sn1-g6-UBj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sn1-g6-UBj">
                                 <rect key="frame" x="116" y="318" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show second screen"/>
                                 <connections>
                                     <action selector="showButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJo-wx-oda"/>
@@ -44,6 +43,13 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sn1-g6-UBj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="645-55-QBq"/>
+                            <constraint firstItem="sn1-g6-UBj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ba-K3-uKm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sn1-g6-UBj" secondAttribute="bottom" constant="319" id="BWB-F5-oE8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sn1-g6-UBj" secondAttribute="trailing" constant="116" id="ZAS-Af-3cn"/>
+                            <constraint firstItem="sn1-g6-UBj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="254" id="wyR-Op-N65"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="lfa-EV-2qf"/>
